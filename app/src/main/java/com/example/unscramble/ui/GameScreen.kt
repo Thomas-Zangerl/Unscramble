@@ -80,7 +80,6 @@ fun GameScreen(gameViewModel: GameViewModel = viewModel()) {
             verticalArrangement = Arrangement.spacedBy(mediumPadding),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-
             Button(
                 modifier = Modifier.fillMaxWidth(),
                 onClick = {gameViewModel.checkUserGuess() }
